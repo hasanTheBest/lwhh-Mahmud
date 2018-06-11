@@ -28,7 +28,7 @@
                                     <?php the_time( 'F j, Y' ); ?>
                                 </p>
                                 <?php
-                                    echo esc_html( get_the_tag_list( '<ul class="list-unstyled">', '</li><li>', '</li></ul>' ) );
+                                    echo get_the_tag_list( '<ul class="list-unstyled">', '</li><li>', '</li></ul>' );
                                 ?>
                             </div>
                             <div class="col-md-8">
